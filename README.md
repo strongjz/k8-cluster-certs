@@ -16,6 +16,7 @@ Currently does not copy those files to the nesscary servers.
 High level: Cluster setup
 
 https://kubernetes.io/docs/concepts/cluster-administration/certificates/
+
 https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/
 
 A. Generating Certificates
@@ -31,6 +32,7 @@ A. Generating Certificates
 9. ~~Copy the appropriate certificates and private keys to each controller instance~~
 
 B. Generate Kube configs
+
     Generate kubeconfig files for the controller manager, kubelet, kube-proxy, and scheduler clients and the admin user
 
 1. Generate a kubeconfig file for each worker node
