@@ -33,7 +33,7 @@ A. Generating Certificates
 
 B. Generate Kube configs
 
-    Generate kubeconfig files for the controller manager, kubelet, kube-proxy, and scheduler clients and the admin user
+   Generate kubeconfig files for the controller manager, kubelet, kube-proxy, and scheduler clients and the admin user
 
 1. Generate a kubeconfig file for each worker node
 2. Generate a kubeconfig file for the kube-proxy service
